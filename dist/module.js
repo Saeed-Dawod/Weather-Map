@@ -382,7 +382,7 @@ function (_super) {
   function SimplePanel(props) {
     var _this = _super.call(this, props) || this;
 
-    _this.foucsBritain = function (e) {
+    _this.focusCountry = function (e) {
       _this.setState({
         latitude: e.target.dataset.lat,
         longitude: e.target.dataset.lon
@@ -404,28 +404,28 @@ function (_super) {
       "data-lat": 51.51279,
       "data-lon": -0.09184,
       style: styles,
-      onClick: this.foucsBritain
-    }, "UK "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_grafana_ui__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+      onClick: this.focusCountry
+    }, "UK"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_grafana_ui__WEBPACK_IMPORTED_MODULE_2__["Button"], {
       "data-lat": 48.8534,
       "data-lon": 2.3488,
       style: styles,
-      onClick: this.foucsBritain
-    }, " France "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_grafana_ui__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+      onClick: this.focusCountry
+    }, "France"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_grafana_ui__WEBPACK_IMPORTED_MODULE_2__["Button"], {
       "data-lat": 32.072683399999995,
       "data-lon": 34.7954018,
       style: styles,
-      onClick: this.foucsBritain
-    }, " Nat int "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_grafana_ui__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+      onClick: this.focusCountry
+    }, "Nat int"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_grafana_ui__WEBPACK_IMPORTED_MODULE_2__["Button"], {
       "data-lat": -25.2743988,
       "data-lon": 133.7751312,
       style: styles,
-      onClick: this.foucsBritain
-    }, " Australia "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_grafana_ui__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+      onClick: this.focusCountry
+    }, "Australia"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_grafana_ui__WEBPACK_IMPORTED_MODULE_2__["Button"], {
       "data-lat": 39.742043,
       "data-lon": -104.991531,
       style: styles,
-      onClick: this.foucsBritain
-    }, " Usa "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
+      onClick: this.focusCountry
+    }, "Usa"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
       width: "1280",
       height: "800",
       src: "https://embed.windy.com/embed2.html?lat=" + this.state.latitude + "&lon=" + this.state.longitude + "\n                     &zoom=6&level=surface&overlay=rain&menu=\n                      &message=true&marker=&calendar=&pressure=&type=map&location=coordinates&detail=true&detailLat=" + this.state.latitude + "\n                     &detailLon=" + this.state.longitude + "&metricWind=default&metricTemp=%C2%B0C&radarRange=-1",

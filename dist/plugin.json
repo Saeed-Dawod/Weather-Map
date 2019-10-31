@@ -1,10 +1,10 @@
 {
   "type": "panel",
-  "name": "Simple Panel",
+  "name": "Weather map",
   "id": "simple-panel",
 
   "info": {
-    "description": "Simple React Panel",
+    "description": "Weather Map",
     "author": {
       "name": "Your Name"
     },
